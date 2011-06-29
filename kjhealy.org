@@ -144,7 +144,7 @@ When your frame (i.e., the main Emacs window) is split into different parts (e.g
     Used with Mitsuharu Yamamoto's carbon-patched Emacs, which turns
     off support for default mac bindings. Turned off by default.
 #+srcname: mac-keys
-#+begin_src emacs-lisp tangle: no
+#+begin_src emacs-lisp :tangle no
    (setq mac-command-modifier 'alt mac-option-modifier 'meta)
    (require 'redo+)
    (require 'mac-key-mode)
