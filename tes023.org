@@ -185,11 +185,11 @@ Tell RefTeX where the bibliography files are.
 #+begin_src emacs-lisp    
     ;; Make RefTex able to find my local bib files
     (setq reftex-bibpath-environment-variables
-    '("/Users/kjhealy/Library/texmf/bibtex/bib"))
+    '("/Users/tes023/Library/texmf/bibtex/bib"))
 
     ;; Default bibliography
     (setq reftex-default-bibliography
-    '("/Users/kjhealy/Documents/bibs/socbib.bib"))
+    '("/Users/tes023/Documents/bibs/socbib.bib"))
 #+end_src
 
 *** Local vc commands
@@ -281,6 +281,32 @@ Polymode is a new package that supports multiple modes inside a single buffer. I
 #+end_src
 
 ** Local Org-mode Settings
+*** Archive and Capture settings
+
+Inserting some keybindings to make agenda and capture modes work.
+
+Taken from the [[http://orgmode.org/guide/Activation.html][Org Mode Documentation]].
+ ;; The following lines are always needed.  Choose your own keys.
+
+#+source: org-mode-capture-settings
+#+begin_src: emacs-lisp
+(global-set-key (kbd "C-c l") 'org-store-link)
+(global-set-key (kbd "C-c a") 'org-agenda)
+(global-set-key (kbd "C-c c") 'org-capture)
+(global-set-key (kbd "C-c b") 'org-iswitchb)
+
+(setq org-capture-templates
+'(("b" "Book"
+entry
+(file+datetree "books.org")
+"* %^{Title}
+%^{Author}p
+%^{Interest}p
+%?
+")))
+#+end_src
+
+
 *** Smart-quote binding
 When in an org-mode buffer, bind TeX-insert-quote to =C-c "=. Turned off by default. 
 
@@ -331,7 +357,7 @@ When in an org-mode buffer, bind TeX-insert-quote to =C-c "=. Turned off by defa
 #+end_src
 
 *** XeLaTeX and pdfLaTeX Export Settings
-   Configure org-mode to export directly to PDF using  xelatex, compiling the bibliography as it goes, with my preferred setup in each case. There is a good deal of local stuff in this section. The required style files used below are available at https://github.com/kjhealy/latex-custom-kjh. You may need to adjust or remove some of these settings depending on your preferences and local configuration.
+   Configure org-mode to export directly to PDF using  xelatex, compiling the bibliography as it goes, with my preferred setup in each case. There is a good deal of local stuff in this section. The required style files used below are available at https://github.com/tes023/latex-custom-kjh. You may need to adjust or remove some of these settings depending on your preferences and local configuration.
 
 #+source: orgmode-xelatex-export
 #+begin_src emacs-lisp

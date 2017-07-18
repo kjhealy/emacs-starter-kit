@@ -22,6 +22,9 @@
 ;; http://zpcat.blogspot.com/2013/08/configure-eshell-mode-after-upgrade.html
 (require 'esh-mode)
 
+;; workaround for org-mode error
+(package-initialize)
+
 ;; Package Locations
 (if (fboundp 'normal-top-level-add-subdirs-to-load-path)
     (let* ((my-lisp-dir "~/.emacs.d/")
