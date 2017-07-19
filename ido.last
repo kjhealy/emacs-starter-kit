@@ -1,0 +1,100 @@
+;;; -*- coding: utf-8 -*-
+
+;; ----- ido-last-directory-list -----
+(
+ ("/Users/tes023/Repositories/teaching/" . "s17_univ140-big-data/")
+ ("/Users/tes023/Repositories/local-repo/twitter-analysis/" . "hashtags/")
+ ("/Users/tes023/Repositories/local-repo/" . "twitter-analysis/")
+ ("/Users/tes023/Repositories/writing-research-repo/econ258-election2016/data/" . "ohio-ashtabula/")
+ ("/Users/tes023/Repositories/writing-research-repo/econ258-election2016/" . "data/")
+ ("/Users/tes023/Repositories/writing-research-repo/command-line-data-carpentry/" . "_episodes/")
+ ("/Users/tes023/Repositories/writing-research-repo/" . "econ258-election2016/")
+ ("/Users/tes023/Repositories/" . "teaching/")
+ ("/Users/" . "tes023/")
+ ("/Users/tes023/.oh-my-zsh/" . "custom/")
+ ("/Users/tes023/Dropbox/Bucknellian/" . "Notes/")
+ ("/Users/tes023/Dropbox/" . "Org/")
+ ("/Users/tes023/" . ".emacs.d/")
+)
+
+;; ----- ido-work-directory-list -----
+(
+ "/Users/tes023/.emacs.d/"
+ "/Users/tes023/Dropbox/Org/"
+ "/Users/tes023/Repositories/teaching/s17_univ140-big-data/"
+ "/Users/tes023/Repositories/local-repo/twitter-analysis/hashtags/"
+ "/Users/tes023/Dropbox/Bucknellian/Notes/"
+ "/Users/tes023/Repositories/writing-research-repo/econ258-election2016/data/ohio-ashtabula/"
+ "/Users/tes023/Repositories/writing-research-repo/econ258-election2016/data/erie-pa/"
+ "/Users/tes023/Repositories/writing-research-repo/command-line-data-carpentry/_episodes/"
+ "/Users/tes023/.oh-my-zsh/"
+ "/Users/tes023/"
+ "/Users/tes023/.oh-my-zsh/custom/"
+)
+
+;; ----- ido-work-file-list -----
+(
+ "tes023.org"
+ "test-file.org"
+ "ideas.org"
+ "tokens.R"
+ "demo.json"
+ "task-list.org"
+ "archive.org"
+ "blog.org"
+ "tes023.el"
+ "*"
+)
+
+;; ----- ido-dir-file-cache -----
+(
+ ("/Users/tes023/.emacs.d/" (22894 9185 0 0) "tes023.org" "tes023.el" "starter-kit.org" "starter-kit.el" "starter-kit-text.org" "starter-kit-text.el" "starter-kit-stats.org" "starter-kit-stats.el" "starter-kit-python.org" "starter-kit-python.el" "starter-kit-perl.org" "starter-kit-perl.el" "starter-kit-org.org" "starter-kit-org.el" "starter-kit-misc.org" "starter-kit-misc.el" "starter-kit-lisp.org" "starter-kit-lisp.el" "starter-kit-latex.org" "starter-kit-latex.el" "starter-kit-js.org" "starter-kit-js.el" "starter-kit-eshell.org" "starter-kit-eshell.el" "starter-kit-elpa.org" "starter-kit-elpa.el" "starter-kit-defuns.org" "starter-kit-defuns.el" "starter-kit-completion.org" "starter-kit-completion.el" "starter-kit-bindings.org" "starter-kit-bindings.el" "starter-kit-aspell.org" "starter-kit-aspell.el" "src/" "snippets/" "smex-items" "README.md" "places" "init.el" "ido.last" "eshell/" "elpa/" "dominating-file.el" "custom.el" "bookmarks" "backups/" "auto-save-list/" "abbrev_defs" ".gitignore" ".git/" "../" "./")
+
+ ("/Users/tes023/Dropbox/Org/" (22894 9165 0 0) "test-file.org" "tes.org" "task-list.org" "study.org" "ribbonfarm.org" "ideas.org" "ideas.html" "blog.org" "archive.org" "acad-ever.org" ".DS_Store" "../" "./")
+
+ ("/Users/tes023/" (22894 9178 0 0) "Zotero/" "twarc.log" "rodeo.log" "Repositories/" "Public/" "Pictures/" "nltk_data/" "Music/" "Movies/" "Library/" "Google Drive/" "Dropbox/" "Downloads/" "Documents/" "Desktop/" "Creative Cloud Files/" "bin/" "Applications/" "anaconda/" ".zshrc" ".zsh_history" ".zsh-update" ".zcompdump-tes023-5.2" ".zcompdump-tes023-5.0.8" ".wacom/" ".viminfo" ".vagrant.d/" ".twarc" ".Trash/" ".tes023_Dns.txt" ".subversion/" ".ssh/" ".sqlanywhere16/" ".spyder-py3/" ".spss/" ".ShareLink.ini" ".rstudio-desktop/" ".Rhistory" ".p2/" ".oracle_jre_usage/" ".oh-my-zsh/" ".matplotlib/" ".matlab/" ".jupyter/" ".ipython/" ".gitconfig" ".gem/" ".emacs.d/" ".eclipse/" ".DS_Store" ".dropbox/" ".cups/" ".continuum/" ".config/" ".condarc" ".conda/" ".CFUserTextEncoding" ".cache/" ".bashrc" ".bash_sessions/" ".bash_profile" ".bash_history" ".bash_aliases" ".atom/" ".APKey.plist" ".anaconda/" ".adobe/" ".489454.padl" "../" "./")
+
+ ("/Users/tes023/Dropbox/" (22887 27307 0 0) "Screenshots/" "Org/" "Icon
+" "Bucknellian/" ".tags_and_ratings.plist" ".Papers3.syncsettings" ".DS_Store" ".dropbox.cache/" ".dropbox" "../" "./")
+
+ ("/Users/tes023/Repositories/local-repo/twitter-analysis/hashtags/" (22839 235 0 0) "tweets.json" "twarc.log" "hashtag-tokenizing.ipynb" "demo.json" ".ipynb_checkpoints/" "../" "./")
+
+ ("/Users/tes023/Repositories/teaching/s17_univ140-big-data/" (22757 13559 0 0) "tokens.R" "text-mining.R" "sentiment-score.R" "positive-words.txt" "negative-words.txt" "data-teaching.Rproj" "clean-text.R" "big-data-twitter-demo.R" ".Rproj.user/" ".Rhistory" ".RData" ".gitignore" ".git/" "../" "./")
+
+ ("/Users/tes023/Repositories/teaching/" (22750 23417 0 0) "s17_univ140-big-data/" "s17_r-using-ggplot/" "f16_tooltime-PrimaryElections/" "f16_econ258-election2016/" "command-line-data-carpentry/" ".DS_Store" "../" "./")
+
+ ("/Users/tes023/Dropbox/Bucknellian/Notes/" (22837 40263 0 0) "workshops.md" "training.md" "software-carpentry.md" "reference-notes.md" "meetings.md" "interview-postdoc.md" "elections2016.org" "bio-bucknell.md" "annual-review.org" "action-items.md" ".DS_Store" "../" "./")
+
+ ("/Users/tes023/Repositories/local-repo/twitter-analysis/" (22838 45699 0 0) "hashtags/" ".ipynb_checkpoints/" "../" "./")
+
+ ("/Users/tes023/Repositories/local-repo/" (22838 45686 0 0) "twitter-analysis/" "ts-ecec/" "javascript-bibliography/" "dotfiles/" ".ipynb_checkpoints/" ".DS_Store" "../" "./")
+
+ ("/Users/tes023/Repositories/" (22735 63944 0 0) "writing-research-repo/" "teaching/" "local-repo/" "github-repo/" ".DS_Store" "../" "./")
+
+ ("/Users/tes023/.oh-my-zsh/" (22756 59304 0 0) "tools/" "themes/" "templates/" "README.md" "plugins/" "oh-my-zsh.sh" "log/" "LICENSE.txt" "lib/" "custom/" "CONTRIBUTING.md" "cache/" ".gitignore" ".git/" ".DS_Store" "../" "./")
+
+ ("/Users/tes023/Dropbox/Bucknellian/" (22769 11792 0 0) "Unsorted/" "Software/" "Research Projects/" "reference miscellania/" "Reference Docs/" "R-Projects/" "R/" "Pictures/" "Nvivo/" "Notes/" "lynda-photoshopForDesigners/" "LaTeX/" "GameResearchEthics-PhilTech.docx" "datacamp/" "BU-Documents/" "BU-DocumentProjects/" "Admin/" ".DS_Store" "../" "./")
+
+ ("/Users/tes023/.oh-my-zsh/custom/" (22601 27390 0 0) "plugins/" "path.zsh" "example.zsh" "env.zsh" ".git/" "../" "./")
+
+ ("/Users/tes023/Repositories/writing-research-repo/command-line-data-carpentry/_episodes/" (22601 48737 0 0) "10-drake.md" "04-sed.md" "03-grep.md" "02-regular-expressions.md" "01-introduction.md" ".gitkeep" "../" "./")
+
+ ("/Users/tes023/Repositories/writing-research-repo/econ258-election2016/data/erie-pa/" (22600 29726 0 0) "rep-votes.txt" "rep-votes-erie.txt" "rep-numbers.txt" "precinct-names.txt" "erie.tmp" "erie-prec.txt" "erie-pa.txt" "erie-out.csv" "erie-final.csv" "Drakefile" "drake.log" "dem-votes.txt" "dem-votes-erie.txt" "dem-numbers.txt" ".drake/" "../" "./")
+
+ ("/Users/tes023/Repositories/writing-research-repo/econ258-election2016/data/ohio-ashtabula/" (22600 29593 0 0) "rep-votes.txt" "rep-votes-ash.txt" "rep-numbers.txt" "rep-grep.txt" "precinct-names.txt" "precinct-grep.txt" "Drakefile" "drake.log" "dem-votes.txt" "dem-votes-ash.txt" "dem-numbers.txt" "dem-grep.txt" "ashtabula.tmp" "ashtabula-prec.txt" "ashtabula-oh.txt" "ashtabula-final.csv" "ash-out.csv" ".drake/" "../" "./")
+
+ ("/Users/tes023/Library/" (22593 37259 0 0) "WebKit/" "Voices/" "TextWrangler/" "SyncedPreferences/" "Suggestions/" "Spelling/" "Sounds/" "Services/" "Screen Savers/" "Saved Application State/" "Safari/" "Receipts/" "PubSub/" "Printers/" "Preferences/" "PreferencePanes/" "Metadata/" "Messages/" "Mathematica/" "Mail/" "Logs/" "LaunchAgents/" "LanguageModeling/" "Keychains/" "Keyboard Layouts/" "Jupyter/" "iTunes/" "Internet Plug-Ins/" "Input Methods/" "iMovie/" "IdentityServices/" "Group Containers/" "Google/" "GameKit/" "Fonts/" "FontCollections/" "Favorites/" "Dictionaries/" "Developer/" "CoreData/" "Cookies/" "Containers/" "Compositions/" "com.apple.nsurlsessiond/" "Colors/" "ColorPickers/" "Calendars/" "Caches/" "Autosave Information/" "Audio/" "Assistants/" "Application Support/" "Application Scripts/" "Address Book Plug-Ins/" "Accounts/" ".localized" ".FE3F2B8FAC" "../" "./")
+
+ ("/Users/tes023/Repositories/writing-research-repo/econ258-election2016/data/" (22600 8485 0 0) "rep.txt" "ohio-ashtabula/" "erie-pa/" "dem.txt" "../" "./")
+
+ ("/Users/tes023/Repositories/writing-research-repo/econ258-election2016/" (22600 8203 0 0) "README.md" "exploring-dataset.ipynb" "data/" ".ipynb_checkpoints/" ".gitignore" ".git/" ".DS_Store" "../" "./")
+
+ ("/Users/tes023/Repositories/writing-research-repo/command-line-data-carpentry/" (22600 7172 0 0) "setup.md" "reference.md" "Makefile" "LICENSE.md" "index.md" "files/" "fig/" "favicon-swc.ico" "favicon-lc.ico" "favicon-dc.ico" "data/" "CONTRIBUTING.md" "CONDUCT.md" "code/" "CITATION" "bin/" "AUTHORS" "assets/" "_layouts/" "_includes/" "_extras/" "_episodes_rmd/" "_episodes/" "_config.yml" ".gitignore" ".git/" "../" "./")
+
+ ("/Users/tes023/Repositories/writing-research-repo/" (22600 7119 0 0) "R-gis-experiments/" "MyDataScienceToolbox/" "lexis-nexis-tests/" "econ258-election2016/" "command-line-data-carpentry/" ".ipynb_checkpoints/" ".DS_Store" "../" "./")
+
+ ("/Users/" (22468 36670 0 0) "tes023/" "Shared/" "buadmin/" ".localized" "../" "./")
+)
+
+;; ----- ido-unc-hosts-cache -----
+t

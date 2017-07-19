@@ -1,0 +1,10 @@
+;;;; Emacs Bookmark Format Version 1 ;;;;
+;;; This format is meant to be slightly human-readable;
+;;; nevertheless, you probably don't want to edit it.
+;;; -*- End Of Bookmark File Format Version Stamp -*-
+(("org-refile-last-stored"
+ (filename . "~/Dropbox/Org/task-list.org")
+ (front-context-string . "** Digital Commo")
+ (rear-context-string . "017-05-26 Fri>\n\n")
+ (position . 7114))
+)

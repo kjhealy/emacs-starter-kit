@@ -1,0 +1,29 @@
+
+;; ----- smex-history -----
+(
+ org-agenda
+ magit-stash
+ multi-isearch-buffers
+ org-time-stamp-inactive
+ eval-region
+ ido-switch-buffer
+ string-insert-rectangle
+)
+
+;; ----- smex-data -----
+(
+ (list-packages . 3)
+ (org-customize . 2)
+ (locate-library . 2)
+ (recover-session . 4)
+ (unfill-paragraph . 2)
+ (text-mode . 2)
+ (replace-regexp . 1)
+ (string-insert-rectangle . 2)
+ (org-agenda . 54)
+ (ido-switch-buffer . 2)
+ (eval-region . 1)
+ (org-time-stamp-inactive . 1)
+ (multi-isearch-buffers . 1)
+ (magit-stash . 1)
+)
