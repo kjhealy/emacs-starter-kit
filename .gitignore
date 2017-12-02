@@ -1,3 +1,5 @@
+smex-items
+abbrev_def
 *.el~
 loaddefs.el*
 backups/*

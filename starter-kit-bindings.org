@@ -7,8 +7,8 @@ This is part of the [[file:starter-kit.org][Emacs Starter Kit]].
 
 Key Bindings.
 
-** Map fn to Hyper
-#+source: fn-to-hyper
+** MAC Map fn to Hyper
+#+source: fn-to-hyper tangle:no
 #+begin_src emacs-lisp
   (setq mac-function-modifier 'hyper)
   ;; fix page-up and page-down keys
@@ -200,26 +200,26 @@ When windows get out of order, you can rotate them.
 (global-set-key (kbd "C-x C-m") 'smex)
 #+end_src
     
-** Use Option as Meta key
+** MAC Use Option as Meta key
 
-#+source: option-is-meta
+#+source: option-is-meta tangle: no
 #+begin_src emacs-lisp 
   (setq mac-option-modifier 'meta)    
 #+end_src
 
-** Use Command-Z as undo
-Use a little bit of Mac keys, but not all of them.
+** Use Command-Z as undo and other generic key bindings
+Option to use some generic Mac and Windows key bindings.
 #+source: mackeys1
 #+begin_src emacs-lisp 
-  (global-set-key [(meta z)] 'undo)
+  ;; (global-set-key [(meta z)] 'undo)
   ;; (require 'redo+) 
-  ;;(global-set-key [(alt a)] 'mark-whole-buffer)
-  ;;(global-set-key [(alt v)] 'yank)
+  ;; (global-set-key [(alt a)] 'mark-whole-buffer)
+  ;; (global-set-key [(alt v)] 'yank)
   ;; (global-set-key [(alt c)] 'kill-ring-save)
-  ;;(global-set-key [(alt x)] 'kill-region)
-  ;;(global-set-key [(alt s)] 'save-buffer)
-  ;;(global-set-key [(alt f)] 'isearch-forward)
-  ;;(global-set-key [(alt g)] 'isearch-repeat-forward)
+  ;; (global-set-key [(alt x)] 'kill-region)
+  ;; (global-set-key [(alt s)] 'save-buffer)
+  ;; (global-set-key [(alt f)] 'isearch-forward)
+  ;; (global-set-key [(alt g)] 'isearch-repeat-forward)
   ;; (global-set-key [(alt z)] 'undo)
     
 #+end_src
@@ -427,4 +427,5 @@ First mark the word, then add more cursors. To get out of multiple-cursors-mode,
 #+begin_src emacs-lisp
   (message "Starter Kit Bindings loaded.")
 #+end_src
+  
   
