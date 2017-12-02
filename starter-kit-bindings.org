@@ -375,7 +375,7 @@ Sometimes very useful (but we don't use the core cua keys.)
 #+source: expand-region
 #+begin_src emacs-lisp
     (require 'expand-region)
-    (global-set-key (kbd "C-=") 'er/expand-region)  
+    (global-set-key (kbd "M-E") 'er/expand-region)  
 #+end_src
 
 ** Multiple Cursors
