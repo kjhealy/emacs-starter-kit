@@ -177,6 +177,11 @@ When windows get out of order, you can rotate them.
 (global-set-key (kbd "C-x M-m") 'shell)
 #+end_src
 
+** Start a new regular shell even if one is active.
+#+begin_src emacs-lisp 
+(global-set-key (kbd "C-x M-M") (lambda () (interactive) (shell t)))
+#+end_src
+
 ** Smex replaces M-x
     Smex replaces M-x, and is built on top of ido-mode. See
     http://github.com/nonsequitur/smex or
