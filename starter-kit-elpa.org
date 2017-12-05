@@ -48,7 +48,7 @@ The following packages will be downloaded and installed.
                                 'solarized-theme
                                 'tango-2-theme
                                 'textmate
-                                'typopunct
+                                'typo
                                 'visual-regexp
                                 'yaml-mode
                                 'yasnippet

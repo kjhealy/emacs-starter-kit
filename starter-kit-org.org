@@ -102,7 +102,7 @@ contains an up to date list of the currently supported languages.
   (org-babel-do-load-languages
    'org-babel-load-languages
    '((emacs-lisp . t)
-   (shell . t)))
+   (sh . t)))
 #+end_src
 
 The next block makes org-babel aware that a lower-case 'r' in a =src= block header should be processed as R. 

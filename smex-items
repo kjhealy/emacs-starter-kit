@@ -1,0 +1,16 @@
+
+;; ----- smex-history -----
+(
+ package-list-packages
+ R
+ S
+ ag
+ cd
+ mf
+ 5x5
+)
+
+;; ----- smex-data -----
+(
+ (package-list-packages . 1)
+)
